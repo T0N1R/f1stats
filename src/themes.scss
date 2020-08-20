@@ -1,0 +1,77 @@
+@import '~@nebular/theme/styles/theming';
+@import '~@nebular/theme/styles/themes/dark';
+
+$nb-themes: nb-register-theme((
+
+  color-primary-100: #F4FDFA,
+  color-primary-200: #EAFCF7,
+  color-primary-300: #DDF8F3,
+  color-primary-400: #D1F1EE,
+  color-primary-500: #BFE9E8,
+  color-primary-600: #8BC4C8,
+  color-primary-700: #609CA7,
+  color-primary-800: #3C7587,
+  color-primary-900: #24576F,
+
+  color-basic-100: white,
+  color-basic-200: #fceeee,
+  color-basic-300: #fae8e8,
+  color-basic-400: #f2d6d6,
+  color-basic-500: #ebc7c7,
+  color-basic-600: #dba9a9,
+  color-basic-700: #dc0000,
+  color-basic-800: #ab0000,
+  color-basic-900: #a90101,
+  color-basic-1000: #552424,
+  color-basic-1100: #2b1212,
+
+  background-basic-color-1: color-basic-700, // <- 800 by default
+  background-basic-color-2: color-basic-800, // <- 900 by default
+  background-basic-color-3: color-basic-900, // <- etc
+  background-basic-color-4: color-basic-100,
+
+  border-basic-color-1: color-basic-700,
+  border-basic-color-2: color-basic-800,
+  border-basic-color-3: color-basic-900,
+  border-basic-color-4: color-basic-1000,
+  border-basic-color-5: color-basic-1100,
+), Ferrari, dark);
+
+$nb-themes: nb-register-theme((
+
+  color-primary-100: #eff3f2,
+  color-primary-200: #0d1311,
+  color-primary-300: #181f1d,
+  color-primary-400: #151c1c,
+  color-primary-500: #181A1A,
+  color-primary-600: #111516,
+  color-primary-700: #0C1112,
+  color-primary-800: #070D0F,
+  color-primary-900: #04090C,
+
+  color-basic-100: black,
+  color-basic-200: #fbeefc,
+  color-basic-300: #e8faf7,
+  color-basic-400: #d6f2ec,
+  color-basic-500: #0c100f,
+  color-basic-600: #2e403f,
+  color-basic-700: #00d2be,
+  color-basic-800: #02a496,
+  color-basic-900: #00776c,
+  color-basic-1000: #01564e,
+  color-basic-1100: #2b1212,
+
+  background-basic-color-1: color-basic-700, // <- 800 by default
+  background-basic-color-2: color-basic-800, // <- 900 by default
+  background-basic-color-3: color-basic-900, // <- etc
+  background-basic-color-4: color-basic-100,
+
+  border-basic-color-1: color-basic-700,
+  border-basic-color-2: color-basic-800,
+  border-basic-color-3: color-basic-900,
+  border-basic-color-4: color-basic-1000,
+  border-basic-color-5: color-basic-1100,
+), Mercedes, dark);
+
+$nb-themes: nb-register-theme((
+), default, default);
